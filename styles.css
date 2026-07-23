@@ -449,7 +449,12 @@ a {
     transform 0.25s ease,
     border-color 0.25s ease;
 }
-
+.pillar-card,
+.pillar-card h3,
+.pillar-card p,
+.pillar-card span {
+  text-decoration: none !important;
+}
 .pillar-card:hover {
   transform: translateY(-4px);
   border-color: rgba(199, 191, 130, 0.45);
