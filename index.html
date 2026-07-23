@@ -753,6 +753,8 @@
   menuToggle.addEventListener("click", () => {
     const isOpen = mobileNav.classList.toggle("open");
 
+menuToggle.classList.toggle("active", isOpen);
+
     menuToggle.setAttribute(
       "aria-expanded",
       isOpen
