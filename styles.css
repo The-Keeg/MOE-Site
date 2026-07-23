@@ -743,14 +743,23 @@ a {
     grid-template-columns: 1fr;
   }
 
-  .pillar-card {
-    min-height: 280px;
-    padding: 28px;
-  }
+.pillar-card {
+  min-height: auto;
+  padding: 28px;
+}
 
-  .pillar-tag {
-    left: 28px;
-  }
+.pillar-card h3 {
+  margin: 38px 0 14px;
+}
+
+.pillar-card p {
+  margin-bottom: 24px;
+}
+
+.pillar-tag {
+  position: static;
+  margin-top: 20px;
+}
 
   .archive-stats {
     grid-template-columns: 1fr;
