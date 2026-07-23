@@ -752,10 +752,27 @@ a {
     font-size: 0.58rem;
   }
 
-  .header-socials a {
-    width: 30px;
-    height: 30px;
-  }
+ .header-socials {
+  display: none;
+}
+
+.pillar-card {
+  min-height: auto;
+  padding: 28px;
+}
+
+.pillar-card h3 {
+  margin: 38px 0 14px;
+}
+
+.pillar-card p {
+  margin-bottom: 24px;
+}
+
+.pillar-tag {
+  position: static;
+  margin-top: 20px;
+}
 
   .hero {
     min-height: 76vh;
