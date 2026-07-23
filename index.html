@@ -746,6 +746,18 @@
     </p>
 
   </footer>
+<script>
+  const menuToggle = document.querySelector(".menu-toggle");
+  const mobileNav = document.querySelector(".mobile-nav");
 
+  menuToggle.addEventListener("click", () => {
+    const isOpen = mobileNav.classList.toggle("open");
+
+    menuToggle.setAttribute(
+      "aria-expanded",
+      isOpen
+    );
+  });
+</script>
 </body>
 </html>
